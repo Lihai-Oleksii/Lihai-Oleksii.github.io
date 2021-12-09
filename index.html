@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e9e775d000.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Астролог Котенко</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="content-wrapper header__wrapper">
+            <nav class="header-list">
+                <a href="#profits" class="header-list__link">Услуги</a>
+                <a href="#order" class="header-list__link">Заказать услугу</a>
+                <a href="#review" class="header-list__link">Отзывы</a>
+                <a href="#questions" class="header-list__link">Контакты</a>
+            </nav>
+            <div class="header__phone" id="show-phone">Показать телефон 067...</div>
+        </div>
+    </header>
+    <section class="section">
+        <div class="content-wrapper">
+            <div class="section__column-50">
+                <img src="./img/1.jpg" alt="Алексей Котенко" class="main-image">
+            </div>
+            <div class="section__column-50 intro__content">
+                <div>
+                    <h1 class="intro__title">Астролог Алексей Котенко</h1>
+                    <p class="intro__text">
+                        Астрологическое и высшее психологической образование <br>
+                        12 лет практики по консультированию в вопросах совместимости (более 1000 пар) <br>
+                        Астролог-эксперт в программе "Свадьба вслепую" (2,3 сезон) <br>
+                        42 года, в браке, 3 детей.
+                    </p>
+                    <p class="intro__quote">
+                        Хорошая совместимость не панацея и не исключает необходимость развивать отношения,
+                        но облегчает этот процесс и позволяет избежать ряда осложнений
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section__analysis">
+        <div class="content-wrapper analysis">
+            <h1 class="title">Анализ качества и перспективы отношений</h1>
+            <h2 class="analysis__title">Подходит тем, кто:</h2>
+            <div class="flex-container">
+                <div class="section__column-35">
+                    <i class="fas fa-heart  fa-5x"></i>
+                    <p class="analysis__text">Начинает или развивает отношения</p>
+                    <p class="analysis__text analysis__text--small">
+                        Знакомство, совместное проживание, брак, дети
+                    </p>
+                </div>
+                <div class="section__column-35">
+                    <i class="fas fa-heart-broken fa-5x"></i>
+                    <p class="analysis__text">Столкнулся в отношениях с трудностями</p>
+                    <p class="analysis__text analysis__text--small">
+                        Конфликты, сексуальное охлаждение, отсутствие теплоты и взаимопонимания,
+                        ощущение давления и обесценивания партнера, любовные треугольники
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="content-wrapper profits" id="profits">
+            <h1 class="title profits__title">Вы получите</h1>
+
+            <div class="accordion profits__accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Объективное описание взаимодействия с партнером
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Конфликтность, сексуальное, гендерное, психологическое взаимодействие
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Оценку перспективы
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Проблемы временные или будут преследовать постоянно?
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Увидите сильные и слабые стороны союза
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Насколько вы с партнером подходите друг другу. Насколько высока ваша совместимость.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                            Лучше узнаете своего партнера
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Узнаете самые сокровенные тайны и научитесь лучше понимать свою вторую половинку.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="profits__button">
+                ЗАКАЗАТЬ
+            </button>
+        </div>
+    </section>
+
+    <section class="section section__dependency">
+        <div class="content-wrapper dependency">
+            <h1 class="title">На чем основан анализ</h1>
+            <p class="dependency__text">Статистическое исследование 2000 супружеских пар с давностью заключения брака
+                более 25 лет.</p>
+            <p class="dependency__text">Личный опыт анализа взаимоотношений более 1000 пар.</p>
+            <p class="dependency__text">Таблица % разводов с учетом пола и знака зодиака.</p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="content-wrapper order" id="order">
+            <h1 class="title order__title">Как заказать услугу?</h1>
+            <p class="order__text">1 &nbsp Отправьте данные рождения свои и партнера</p>
+            <p class="order__text">2 &nbsp Получите ответ о возможности консультации</p>
+            <p class="order__text">3 &nbsp Оплатите услугу</p>
+            <p class="order__text">4 &nbsp Пройдите консультацию</p>
+            <p class="order__text">5 &nbsp Примите решения</p>
+            <form action="./order.php" class="order__form">
+                <div class="input-wrapper">
+                    <label for="your-name" class="order__label">Ваше имя</label>
+                    <input type="text" id="your-name" class="order__input">
+                </div>
+                <div class="input-wrapper">
+                    <label for="partner-name" class="order__label">Имя партнера</label>
+                    <input type="text" id="partner-name" class="order__input">
+                </div>
+                <div class="input-wrapper">
+                    <label for="your-date" class="order__label">Ваша дата рождения</label>
+                    <input type="date" id="your-date" class="order__input">
+                </div>
+                <div class="input-wrapper">
+                    <label for="partner-date" class="order__label">Дата рождения партнера</label>
+                    <input type="date" id="partner-date" class="order__input">
+                </div>
+                <div class="input-wrapper">
+                    <label for="your-phone" class="order__label">Ваш номер телефона</label>
+                    <input type="text" id="your-phone" class="order__input">
+                </div>
+                <div class="input-wrapper">
+                    <label for="your-email" class="order__label">Ваш email</label>
+                    <input type="email" id="your-email" class="order__input">
+                </div>
+                <div class="submit-wrapper">
+                    <button type="submit" class="order__submit">Отправить данные</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="section section__review">
+        <div class="content-wrapper review" id="review">
+            <h1 class="title review__title">Отзывы</h1>
+            <div class="review__item">
+                <div class="review__photo">
+                    <div class="review__image review__image--1"></div>
+                    <p class="review__name">Женя</p>
+                </div>
+                <p class="review__text">Алексей, спасибо огромное! Если честно, результат несколько ошеломил, хотя я и
+                    ожидала чего-нибудь подобного... Это заставило всерьёз задуматься. Все понятно! Большое спасибо,
+                    Алексей, за очень обстоятельный ответ!</p>
+            </div>
+            <div class="review__item">
+                <div class="review__photo">
+                    <div class="review__image review__image--2"></div>
+                    <p class="review__name">Юлия</p>
+                </div>
+                <p class="review__text">Алексей помог мне прояснить ситуацию в отношениях, взглянуть на неё под другим
+                    углом и принять соответствующее решение, даже как-то легче стало)). Я действительно Вам благодарна!
+                </p>
+            </div>
+            <div class="review__item">
+                <div class="review__photo">
+                    <div class="review__image review__image--3"></div>
+                    <p class="review__name">Ольга</p>
+                </div>
+                <p class="review__text">Гороскоп совместимости...Изначально очень сомневалась, нужна ли мне подобная
+                    услуга. Я ведь и сама как-бы могу проанализироват ь свои отношения с другими людьми (в моём случае -
+                    с мужем). А потом психонула и кликнула "заказать" :) Первым удивлением стали "скорость реакции"
+                    (работу провёл Алексей Котенко) и нормальная вполне доступная стоимость услуги. Но главное - это
+                    результат. Объективно, чётко, лаконично, "по-полочкам". Будто мои собственные мыли привели в
+                    порядок, посмотрев на ситуацию независимым от гормонов и эмоций взглядом. Очень благодарна; до сих
+                    пор под впечатлением - настолько точным было все изложенное в результатах анализа наших с мужем
+                    отношений. Спасибо ещё раз.</p>
+            </div>
+            <div class="review__item">
+                <div class="review__photo">
+                    <div class="review__image review__image--4"></div>
+                    <p class="review__name">Дмитрий</p>
+                </div>
+                <p class="review__text">Приветствую! Дважды Алексей составлял гороскоп совместимости для меня. Оба раза
+                    вначале я не особо верил в оценку моих отношений с партнершами и в его советы. Но так случилось, что
+                    оба прогноза со временем оправдались. Причем второй раз очень быстро! Думаю что в следующий раз буду
+                    сразу трезво оценивать прогноз и корректировать свое поведение. Так реально можно сэкономить время и
+                    нервы (т.е. здоровье свое и партнера). Спасибо</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="content-wrapper questions" id="questions">
+            <h1 class="title">Остались вопросы?</h1>
+            <h2 class="questions__title">Задавайте!</h2>
+            <form action="./question.php" class="questions__form">
+                <div class="questions__item">
+                    <label for="your-name-question" class="questions__label">Ваше имя</label>
+                    <input type="text" id="your-name-question" class="questions__input">
+                </div>
+                <div class="questions__item">
+                    <label for="your-phone-question" class="questions__label">Ваш номер телефона</label>
+                    <input type="text" id="your-phone-question" class="questions__input">
+                </div>
+                <div class="questions__item">
+                    <label for="your-email-question" class="questions__label">Ваш email</label>
+                    <input type="email" id="your-email-question" class="questions__input">
+                </div>
+                <div class="questions__item">
+                    <label for="question" class="questions__label">Ваш вопрос</label>
+                    <textarea type="email" id="question" class="questions__textarea"> </textarea>
+                </div>
+                <button type="submit" class="questions__submit">Задать вопрос</button>
+            </form>
+        </div>
+    </section>
+    <div id="gotop"><i class="fas fa-chevron-up"></i></div>
+</body>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/index.js"></script>
+
+</html>
